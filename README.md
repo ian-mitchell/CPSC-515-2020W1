@@ -19,4 +19,4 @@ For general course information, please visit the [course website](https://sites.
 ## Homework
 
 1. [Milestone 1 - Introduction to ROS](Milestone%201%20-%20Introduction%20to%20ROS/M1.md).
-
+4. [Milestone 4 - Localization](Milestone%204%20-%20Localization/M4.md).
