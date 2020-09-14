@@ -8,6 +8,7 @@
 
 * 2020-09-08: Course Introduction.
   * Preparation: None.
+  * Lecture recording did not work.
 
 ## Localization
 

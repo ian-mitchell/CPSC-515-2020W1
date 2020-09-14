@@ -14,7 +14,7 @@ For general course information, please visit the [course website](https://sites.
 
 
 * Students are responsible for completing the preparation work for each lecture **before the lecture begins**.
-  * The [Lecture Schedule](Lecture-Schedule/lecture-schedule.md) page lists required preparation work and other useful links.
+  * The [Lecture Schedule](Lecture-Schedule/lecture-schedule.md) page lists required preparation work, links to recorded lectures, and other useful links.
 
 ## Homework
 
