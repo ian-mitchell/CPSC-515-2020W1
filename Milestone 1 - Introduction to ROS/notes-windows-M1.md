@@ -30,4 +30,7 @@ Find instructions for the milestone at [class GitHub repository](https://github.
     ```
     rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist -- "{linear:  {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0,y: 0.0, z: 1.8}}"
     ```
-  * 
+  * It was not part of the milestone, but it appears that the `rosed` command is not defined.  But perhaps I did not set my `EDITOR` environment variable correctly.
+  * Tutorial 1.1.12 puts the Python `talker.py` and `listener.py` scripts into a subdirectory of `beginner_tutorials` called `scripts/` (in other words `catkin_ws\src\beginner_tutorials\scripts\`).  It appears that `rosrun` cannot find them there unless you specify the subdirectory when naming the executable, for example, `rosrun beginner_tutorials scripts\talker.py`.  This behaviour stands in contrast to the executables generated for C++ code.
+    * Python scripts can be found by `rosrun` if you do `catkin_make install` and then `install\setup.bat`.  Getting this process to work correctly is apparently the purpose of the `catkin_install_python()` call in `CMakeLists.txt` (see [here](http://docs.ros.org/melodic/api/catkin/html/howto/format2/installing_python.html)).  But then the script which is executed is a copy from the `catkin_ws\install` directory tree, so changes to the scripts in `src\` will not be visible.
+    * Not clear if this is a Windows specific problem or not.  It was [asked on ROSanswers](https://answers.ros.org/question/326072/windows10-rosrun-couldnt-find-python-scripts-in-path-scripts/) but there is not currently an obvious answer.
