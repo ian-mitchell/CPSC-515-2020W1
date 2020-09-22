@@ -23,6 +23,9 @@
 
 * 2020-09-21: Kalman filter.
   * Preparation: AIfR Lesson 4.
+  * [Kalman Filter slides](https://stanford.edu/class/ee363/lectures/kf.pdf) from Stephen Boyd's [EE363 Linear Dynamical Systems](https://stanford.edu/class/ee363/index.html) course at Stanford.
+  * Implementing KF with Python's NumPy library: Colaboratory notebooks with [problem definition and starter code](https://colab.research.google.com/drive/10y7ObCYRR3KuCSSNAUR2ycP6d4iSEWN6?usp=sharing) and [solution](https://colab.research.google.com/drive/1shrBktsbRDqPmt4TI5JkOLyE2hNRsjsm?usp=sharing).  *Do not look at the solution until you have attempted to solve the problem from the starter.* 
+  * [Recorded lecture](https://ubc.zoom.us/rec/share/0a6W2JNRYWenrC1BIj8Lv-o9IKW633gYo5L6ZxKSqt-KT9Ain7PA4ytobw1Uf5gY.0RTEfiF5FcjBJtbh) and access passcode: iWr2G%*g.  (I forgot to turn off the recording during the ~20 minute breakout near the end.)
 
-* 2020-09-23: Kalman filter limitations / extensions.
+* 2020-09-23: Kalman filter complexity, limitations, and extensions.
   * Preparation: AIfR Lessons 5-7.
