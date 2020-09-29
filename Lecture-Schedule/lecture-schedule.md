@@ -37,6 +37,7 @@
 
 * 2020-09-28: Particle filter.
   * Preparation: AIfR Lesson 8.
+  * [Recorded lecture](https://ubc.zoom.us/rec/share/pdZ_qf-4_EoXgzZ_eMOjhvH-JVZcl-OLG-8P3o3SHYgTprsJ_C1NBqYnZrrAIvYV.x6nyllYMJ3jVLkzf) with passcode Wb=S^2LR.
 
 * 2020-09-30: More particle filter.
   * Preparation: AIfR Lessons 9-11.
