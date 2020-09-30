@@ -32,8 +32,8 @@
   * [Kalman filter slides](http://probabilistic-robotics.informatik.uni-freiburg.de/ppt/kalman.ppt) from the PR textbook.  We looked at slides 6, 7, 17, 21-27, 29, 40-43, 55, 57.
   * [Recorded lecture](https://ubc.zoom.us/rec/share/9yt7DwWHgM-TrTf6fVPk8eXFG12LdfdZT1ZfhDfmWlB2xwENekonhSs82SASVR6a.zOhzHschal4cifGY) with passcode ?4hyVl!&.
   * KF Homework: [Jupyter notebook](Lecture-Files/lecture-05-homework.ipynb) or [on Colaboratory](https://drive.google.com/file/d/1H4Kf8roRwBdJQ0tybEBDWfwx9Qy3OoAO/view?usp=sharing).
-    * Homework is due Friday October 2.
-    * Submission instructions will be posted soon.
+    * Homework is due Monday October 5 by 11:45 am (*before class*).
+    * Submit `.ipynb` Jupyter notebook file through Canvas.  Look for "KF Homework (submit here)" under the "Assignments" tab.
 
 * 2020-09-28: Particle filter.
   * Preparation: AIfR Lesson 8.
