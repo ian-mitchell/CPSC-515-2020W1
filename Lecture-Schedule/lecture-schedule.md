@@ -1,5 +1,6 @@
 # CPSC 515 2020W1 Lecture Schedule
 
+* This page lists just topics, expected preparation, lecture recordings and lecture associated links.  Detailed agenda for each lecture are stored in [this Google Drive folder](https://drive.google.com/drive/folders/1Exau_rTwjTxsIDH9iFSPuaIjj7NLzqhw?usp=sharing).
 * Future lectures are subject to change.
 * Some readings and/or links may not work on computers outside of UBC.  If you are working from home, use UBC's [myVPN service](https://it.ubc.ca/services/email-voice-internet/myvpn).  If you still have problems with a link, contact the instructor.
 * Material from [Artificial Intelligence for Robotics](https://classroom.udacity.com/courses/cs373) is denoted "AIfR".
