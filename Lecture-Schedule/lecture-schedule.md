@@ -34,7 +34,7 @@ Some lectures also include pointers to readings on their specific topics.
 * 2020-09-14: Bayes filter and histogram localization.
   * Preparation: AIfR Lesson 1.
   * [Recorded lecture](https://ubc.zoom.us/rec/share/h3zWbbupK8L18Rjps8L3_3tZCqeAH2ALLXC5R_kx9QYug9wGa8y13KfumXHr0ny0.UZJpl8KBeMRzaCDN) and access passcode `3Dhx+2bp`.
-  * Reading: PR chapters 2, 4.1 and 8.2
+  * Optional reading: PR chapters 2, 4.1 and 8.2
 
 * 2020-09-16: Generic Bayes filter and cost of histogram filter implementation.
   * Preparation: AIfR Lessons 2 & 3.
@@ -46,7 +46,7 @@ Some lectures also include pointers to readings on their specific topics.
   * [Kalman Filter slides](https://stanford.edu/class/ee363/lectures/kf.pdf) from Stephen Boyd's [EE363 Linear Dynamical Systems](https://stanford.edu/class/ee363/index.html) course at Stanford.
   * Implementing KF with Python's NumPy library: Colaboratory notebooks with [problem definition and starter code](https://colab.research.google.com/drive/10y7ObCYRR3KuCSSNAUR2ycP6d4iSEWN6?usp=sharing) and [solution](https://colab.research.google.com/drive/1shrBktsbRDqPmt4TI5JkOLyE2hNRsjsm?usp=sharing).  *Do not look at the solution until you have attempted to solve the problem from the starter.* 
   * [Recorded lecture](https://ubc.zoom.us/rec/share/0a6W2JNRYWenrC1BIj8Lv-o9IKW633gYo5L6ZxKSqt-KT9Ain7PA4ytobw1Uf5gY.0RTEfiF5FcjBJtbh) and access passcode: `iWr2G%*g`.  (I forgot to turn off the recording during the ~20 minute breakout near the end.)
-  * Reading: PR chapter 3.2.  Note that the basic KF does not work for typical ground robot models because those models are nonlinear.
+  * Optional reading: PR chapter 3.2.  Note that the basic KF does not work for typical ground robot models because those models are nonlinear.
 
 * 2020-09-23: Kalman filter complexity, limitations, and extensions.
   * Preparation: AIfR Lessons 5-7.
@@ -55,16 +55,20 @@ Some lectures also include pointers to readings on their specific topics.
   * KF Homework: [Jupyter notebook](Lecture-Files/lecture-05-homework.ipynb) or [on Colaboratory](https://drive.google.com/file/d/1H4Kf8roRwBdJQ0tybEBDWfwx9Qy3OoAO/view?usp=sharing).
     * Homework is due Monday October 5 by 11:45 am (*before class*).
     * Submit `.ipynb` Jupyter notebook file through Canvas.  Look for "KF Homework (submit here)" under the "Assignments" tab.
-  * Reading: Extensions of KF in PR chapters 3.3, 3.4 & 7.
+  * Optional reading: Extensions of KF in PR chapters 3.3, 3.4 & 7.
 
 * 2020-09-28: Particle filter.
   * Preparation: AIfR Lesson 8.
   * [Recorded lecture](https://ubc.zoom.us/rec/share/pdZ_qf-4_EoXgzZ_eMOjhvH-JVZcl-OLG-8P3o3SHYgTprsJ_C1NBqYnZrrAIvYV.x6nyllYMJ3jVLkzf) with passcode `Wb=S^2LR`.
-  * Reading: PR chapter 4.3
+  * Optional reading: PR chapter 4.3
 
 * 2020-09-30: More particle filter.
   * Preparation: AIfR Lessons 9-11.
   * [Recorded lecture](https://ubc.zoom.us/rec/share/yLNmFOr_8yjFIo36GvuCjgNpTkGXtkwvY-aVvAH857eA_uRCBGc6M21IR-hGS9-e.jpFy9861fSYe9M_Z) with passcode `.C9Tjj7@`.
+  * Optional reading:
+    * "[Adapting the Sample Size in Particle Filters through KLD-Sampling](https://doi.org/10.1177%2F0278364903022012001)" by Fox, *Int. J. Robotics Research* 22(12): 985-1003 (Dec 2003).
+    * "[Improved Techniques for Grid Mapping with Rao-Blackwellized Particle Filters](https://doi.org/10.1109/TRO.2006.889486)" by Grisetti, Stachniss & Burgard, *IEEE Trans. Robotics* 23(1):34-46 (Feb 2007).
+    * [UBC Wiki Page about RBPF](https://wiki.ubc.ca/Course:CPSC522/Rao_Blackwellized_Particle_Filtering) by Jocelyn Minns from an old offering of CPSC 522.
 
 ## Planning and Control
 
@@ -91,7 +95,7 @@ Of course, the rise of machine learning over the past 5-10 years has lead many t
 
 * 2020-10-05: Discrete Path Planning.
   * Preparation: AIfR Lesson 12.  The final problem is quite challenging -- try it and come to class with questions.
-  * Reading: PR chapter 14 discusses value iteration in the context of Markov Decision Processes (MDPs).
+  * Optional reading: PR chapter 14 discusses value iteration in the context of Markov Decision Processes (MDPs).
 
 * 2020-10-07: Dynamic Programming.
   * Preparation: AIfR Lesson 12 (if you did not already finish it) and 13-14 (the main problem in Lesson 13 is easier than the final example in Lesson 12).
