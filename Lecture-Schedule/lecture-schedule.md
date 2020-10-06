@@ -95,9 +95,12 @@ Of course, the rise of machine learning over the past 5-10 years has lead many t
 
 * 2020-10-05: Discrete Path Planning.
   * Preparation: AIfR Lesson 12.  The final problem is quite challenging -- try it and come to class with questions.
+  * We did not manage to get to path planning during the lecture.
+    * There was some discussion of the [course project](https://sites.google.com/view/ubccpsc515winter2020/projects).
+    * [Slides](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-10-05-system-models.pdf) about system models and the meaning of optimal control (including objective and value functions).  Slides include notations added during and after class.
   * [Recorded lecture](https://ubc.zoom.us/rec/share/E7iPB6Vor0kKUw-8BVHMWOT0fz5G6kplk5z4_ZnF94lVyklY4CWf_NKj74Jo_dv1.aJRxi4kVVLB6dhvD) with passcode `fv*p%.C2`.
 
 
-* 2020-10-07: Dynamic Programming.
+* 2020-10-07: Dynamic Programming and Path Planning.
   * Preparation: AIfR Lesson 12 (if you did not already finish it) and 13-14 (the main problem in Lesson 13 is easier than the final example in Lesson 12).
   * Optional reading: PR chapter 14 discusses value iteration in the context of Markov Decision Processes (MDPs).
