@@ -62,7 +62,7 @@ Some lectures also include pointers to readings on their specific topics.
   * [Recorded lecture](https://ubc.zoom.us/rec/share/pdZ_qf-4_EoXgzZ_eMOjhvH-JVZcl-OLG-8P3o3SHYgTprsJ_C1NBqYnZrrAIvYV.x6nyllYMJ3jVLkzf) with passcode `Wb=S^2LR`.
   * Optional reading: PR chapter 4.3
 
-* 2020-09-30: More particle filter.
+* 2020-09-30: Motion / sensing models and extensions of particle filters.
   * Preparation: AIfR Lessons 9-11.
   * [Recorded lecture](https://ubc.zoom.us/rec/share/yLNmFOr_8yjFIo36GvuCjgNpTkGXtkwvY-aVvAH857eA_uRCBGc6M21IR-hGS9-e.jpFy9861fSYe9M_Z) with passcode `.C9Tjj7@`.
   * Optional reading:
@@ -95,7 +95,9 @@ Of course, the rise of machine learning over the past 5-10 years has lead many t
 
 * 2020-10-05: Discrete Path Planning.
   * Preparation: AIfR Lesson 12.  The final problem is quite challenging -- try it and come to class with questions.
-  * Optional reading: PR chapter 14 discusses value iteration in the context of Markov Decision Processes (MDPs).
+  * [Recorded lecture](https://ubc.zoom.us/rec/share/E7iPB6Vor0kKUw-8BVHMWOT0fz5G6kplk5z4_ZnF94lVyklY4CWf_NKj74Jo_dv1.aJRxi4kVVLB6dhvD) with passcode `fv*p%.C2`.
+
 
 * 2020-10-07: Dynamic Programming.
   * Preparation: AIfR Lesson 12 (if you did not already finish it) and 13-14 (the main problem in Lesson 13 is easier than the final example in Lesson 12).
+  * Optional reading: PR chapter 14 discusses value iteration in the context of Markov Decision Processes (MDPs).
