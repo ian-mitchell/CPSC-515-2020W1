@@ -3,12 +3,26 @@
 Find instructions for this milestone at the [class Github repository](https://github.com/ian-mitchell/CPSC-515-2020W1/blob/master/Milestone%202%20-%20Basic%20Robot%20Simulation%20with%20Gazebo/M1.md).
 
 * Gazebo is actually installed (in the form of the `gazebo-9` package) as part of `ros-melodic-desktop_full` metapackage through chocolatey.
+  * Gazebo should find them automatically, but FYI the `.launch` and `.world` files are in subdirectories of
+    ```
+    c:/opt/ros/melodic/x64/share/
+    ```
+  * I have not figured out how to run `gzserver` and `gzclient` separately, but 
+    ```
+    roslaunch gazebo_ros empty_world.launch paused:=true use_sim_time:=false gui:=true throttled:=false recording:=false debug:=true verbose:=true gui_required:=true
+    ``` 
+    as suggested in the [Using roslaunch to start Gazebo...](http://gazebosim.org/tutorials?tut=ros_roslaunch&cat=connect_ros) tutorial worked fine.
+  * The `gazebo` command (combining `gzserver` and `gzclient`) is undefined, so use `roslaunch` as above.
+  * The default for `GAZEBO_MODEL_PATH` appears to be `C:\Users\<your-windows-user-name>\.gazebo\models\`; however, even though `C:\Users\<your-windows-user-name>\.gazebo` is created automatically it looks like the `models\` subdirectory is not.  The result is that attempts to add new models to the world (for example, from [http://models.gazebosim.org]) fails.  The fix appears to be simple: Create the `models\` subdirectory manually.
 
-## Attempt to install Gazebo from Gazebo's instructions.
 
-Two stages of this attempt failed, one optional and the other critical: the final build of `gzclient`.  At this time I do not recommend following these instructions.
 
-* [Gazebo](http://gazebosim.org/)'s [Install on Windows](http://gazebosim.org/tutorials?tut=install_on_windows&cat=install) instructions are lengthy and tedious.
+## Attempt to install Gazebo independently
+
+Based on [Gazebo](http://gazebosim.org/)'s [Install on Windows](http://gazebosim.org/tutorials?tut=install_on_windows&cat=install) instructions.
+
+Two stages of this attempt failed, one optional (see below) and the other critical (the final build of `gzclient`).  At this time I do not recommend following these instructions.
+
 * Used `cygwin` for steps 2, 3, and 6 and the VS command prompt (set up during ROS installation) for steps 8-15.  Not sure if step 7 is necessary because we are running inside the VS command prompt.  I did not install `cmake` (step 4) or `ruby` (step 5), since they were already installed in both `cygwin` and the VS command prompt.
   * Definitely worth writing a script to use `wget` to download and `unzip` the dependencies listed in step 2 & 3.  Probably worth looking to see whether those dependencies can be downloaded and managed through `vcpkg` instead of doing it manually.  Ended up using `7-zip` to unpack the zip files because `cygwin`'s `unzip` command did not handle wildcards well.
   * Note that unzipping all of these archives dumps files into common `bin\`, `include\`, `lib\`, and `share\` subdirectories, so you will not see new subdirectories for every package from step 2 after unzipping in step 3.
@@ -57,5 +71,7 @@ Two stages of this attempt failed, one optional and the other critical: the fina
     C:\opt\rosdeps\x64\bin\libcurl.dll : fatal error LNK1107: invalid or corrupt file: cannot read at 0x300
     ```
     I am concerned that the build is accessing `rosdeps\x64\bin\` rather than `gz-ws\bin` and hence may be getting a wholly incompatible DLL.
+
+    * At this point I gave up, and discovered that Gazebo had already been installed through `ros-melodic-desktop_full` back in M1.
 
 
