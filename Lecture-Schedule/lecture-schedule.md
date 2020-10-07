@@ -104,3 +104,15 @@ Of course, the rise of machine learning over the past 5-10 years has lead many t
 * 2020-10-07: Dynamic Programming and Path Planning.
   * Preparation: AIfR Lesson 12 (if you did not already finish it) and 13-14 (the main problem in Lesson 13 is easier than the final example in Lesson 12).
   * Optional reading: PR chapter 14 discusses value iteration in the context of Markov Decision Processes (MDPs).
+
+* 2020-10-12: **No lecture** (Thanksgiving holiday).
+  * No preparation or readings.
+
+* 2020-10-14: Dynamic programming / value functions for robotics.
+  * Preparation: Research paper TBA.
+
+* 2020-10-19: PID for continuous control.
+  * Preparation: AIfR Lesson 15.
+
+* 2020-10-21: More control.
+  * Preparation: AIfR Lessons 16-18.
