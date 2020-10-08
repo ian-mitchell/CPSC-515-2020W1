@@ -95,15 +95,17 @@ Of course, the rise of machine learning over the past 5-10 years has lead many t
 
 * 2020-10-05: Discrete Path Planning.
   * Preparation: AIfR Lesson 12.  The final problem is quite challenging -- try it and come to class with questions.
-  * We did not manage to get to path planning during the lecture.
-    * There was some discussion of the [course project](https://sites.google.com/view/ubccpsc515winter2020/projects).
-    * [Slides](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-10-05-system-models.pdf) about system models and the meaning of optimal control (including objective and value functions).  Slides include notations added during and after class.
+  * We did not manage to get to path planning during the lecture. There was some discussion of the [course project](https://sites.google.com/view/ubccpsc515winter2020/projects).
+  * [Slides](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-10-05-system-models.pdf) about system models and the meaning of optimal control (including objective and value functions).  Slides include notations added during and after class.
   * [Recorded lecture](https://ubc.zoom.us/rec/share/E7iPB6Vor0kKUw-8BVHMWOT0fz5G6kplk5z4_ZnF94lVyklY4CWf_NKj74Jo_dv1.aJRxi4kVVLB6dhvD) with passcode `fv*p%.C2`.
 
 
 * 2020-10-07: Dynamic Programming and Path Planning.
   * Preparation: AIfR Lesson 12 (if you did not already finish it) and 13-14 (the main problem in Lesson 13 is easier than the final example in Lesson 12).
-  * Optional reading: PR chapter 14 discusses value iteration in the context of Markov Decision Processes (MDPs).
+  * [Slides](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-10-07-dynamic-programming.pdf) on path planning as a dynamic programming problem, equations and algorithms for value functions, and policy extraction.  Slides include notations added during and after class.  
+  * [Notes](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-10-07-notes.pdf) created during lecture examining how problems from Lesson 12 videos 17 and 19 are encoded as objective functions.
+  * [Recorded lecture](https://ubc.zoom.us/rec/share/3F3dD0ElpaNSmroaa7jofv_prV0dnPYHw4S01NSgx2eXkcFASn4KiC72NH1DfOHq.-l_j5aFmkJqvAHKP) with passcode `fmJE*tw6`.
+  * Optional reading: PR chapter 14 discusses value iteration in the context of Markov Decision Processes (MDPs), which are a discrete state, discrete time, stochastic model of system evolution.  "System evolution" is a more general name for what we have been calling a "motion model".
 
 * 2020-10-12: **No lecture** (Thanksgiving holiday).
   * No preparation or readings.
