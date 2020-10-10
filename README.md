@@ -16,7 +16,10 @@ For general course information, please visit the [course website](https://sites.
 * Students are responsible for completing the preparation work for each lecture **before the lecture begins**.
   * The [Lecture Schedule](Lecture-Schedule/lecture-schedule.md) page lists required preparation work, links to recorded lectures, and other useful links.
 
-## Homework
+## Course Homework and Milestones
 
 1. [Milestone 1 - Introduction to ROS](Milestone%201%20-%20Introduction%20to%20ROS/M1.md).
 
+1. KF Homework: [Jupyter notebook](Lecture-Files/lecture-05-homework.ipynb) or [on Colaboratory](https://drive.google.com/file/d/1H4Kf8roRwBdJQ0tybEBDWfwx9Qy3OoAO/view?usp=sharing).
+
+1. [Milestone 2 - Basic Robot Simulation with Gazebo](Milestone%202%20-%20Basic%20Robot%20Simulation%20with%20Gazebo/M2.md)

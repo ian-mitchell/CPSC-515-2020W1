@@ -12,7 +12,7 @@ Find instructions for the milestone at [class GitHub repository](https://github.
 * Tutorials are Linux / bash focused.  For Windows some adjustments need to be made:
   * There is no `source` command in Windows.  To execute a batch file, just enter a full directory path (including `.\` if necessary) at the command prompt.  For example, in tutorial 1.1.1.3, instead of `source devel\setup.bash` it would be `devel\setup.bat` (or `.\devel\setup.bat`).
   * Instead of `echo $ENV_VARIABLE_NAME` in bash, use `echo %ENV_VARIABLE_NAME%`.
-  * Instead of `sudo apt-get install <ros-pkg>` use `choco source add --name=<ros-pkg> --source="https://aka.ms/ros/public" --priority=1`.
+  * Instead of `sudo apt-get install <ros-pkg>` use `choco install --name=<ros-pkg> --source="https://aka.ms/ros/public" --priority=1`.
   * ROS tab completion (tutorial 1.1.2.3.5) does not appear to work in the Windows shell.  (Regular command line tab completion works if you use `\` (backslash) as your directory separator.)
   * Assuming that you set up the command window shortcut during installation and are using it, then you don't need to source your environment setup again, such as mentioned in tutorial 1.1.4.1.
   * When you run `roscore` you will probably need to permit network access through Windows Firewall.  Same thing will happen the first time you start other nodes.
