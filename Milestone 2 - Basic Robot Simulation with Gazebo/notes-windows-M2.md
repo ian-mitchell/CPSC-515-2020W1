@@ -1,21 +1,38 @@
 # Notes from running CPSC 515 M2 (2020W1 edition) in Windows 10
 
-Find instructions for this milestone at the [class Github repository](https://github.com/ian-mitchell/CPSC-515-2020W1/blob/master/Milestone%202%20-%20Basic%20Robot%20Simulation%20with%20Gazebo/M1.md).
+Find instructions for this milestone at the [class Github repository](https://github.com/ian-mitchell/CPSC-515-2020W1/blob/master/Milestone%202%20-%20Basic%20Robot%20Simulation%20with%20Gazebo/M2.md).
 
-* Gazebo is actually installed (in the form of the `gazebo-9` package) as part of `ros-melodic-desktop_full` metapackage through chocolatey.
+* Gazebo is installed (in the form of the `gazebo-9` package) as part of `ros-melodic-desktop_full` metapackage through chocolatey.
   * Gazebo should find them automatically, but FYI the `.launch` and `.world` files are in subdirectories of
     ```
     c:/opt/ros/melodic/x64/share/
     ```
   * I have not figured out how to run `gzserver` and `gzclient` separately, but 
     ```
-    roslaunch gazebo_ros empty_world.launch paused:=true use_sim_time:=false gui:=true throttled:=false recording:=false debug:=true verbose:=true gui_required:=true
+    $ roslaunch gazebo_ros empty_world.launch paused:=true use_sim_time:=false gui:=true throttled:=false recording:=false debug:=true verbose:=true gui_required:=true
     ``` 
     as suggested in the [Using roslaunch to start Gazebo...](http://gazebosim.org/tutorials?tut=ros_roslaunch&cat=connect_ros) tutorial worked fine.
   * The `gazebo` command (combining `gzserver` and `gzclient`) is undefined, so use `roslaunch` as above.
   * The default for `GAZEBO_MODEL_PATH` appears to be `C:\Users\<your-windows-user-name>\.gazebo\models\`; however, even though `C:\Users\<your-windows-user-name>\.gazebo` is created automatically it looks like the `models\` subdirectory is not.  The result is that attempts to add new models to the world (for example, from [http://models.gazebosim.org]) fails.  The fix appears to be simple: Create the `models\` subdirectory manually.
 
+* `tf2` tutorial.
+  * There is no `apt-get` in Windows, and there are no packages at `https://aka.ms/ros/public` corresponding to `ros-melodic-turtle-tf2`, `ros-melodic-tf2-tools` or `ros-melodic-tf`.  However, there are `tf` related packages already installed as part of `ros-melodic-desktop_full`, and all of the tutorial appears to work *except* that there is no `view_frames.py` (from section 4.1), or indeed any `tf2_tools` in the ROS directory structure.  Fortunately, that particular feature appears to be superfluous.
+  * To run `rviz` manually I found that I needed to provide the full path to the `turtle_tf2` `.rviz` file.  So instead of
+    ```
+    $ rosrun rviz rviz -d `rospack find turtle_tf2`/rviz/turtle_rviz.rviz
+    ```
+    I had to run
+    ```
+    $ rospack find turtle_tf2
+    ```
+    copy the result and add it to the command; for example,
+    ```
+    rosrun rviz rviz -d c:\opt\ros\melodic\x64\share\turtle_tf2\rviz\turtle_rviz.rviz
+    ```
 
+* URDF tutorials.
+  * The `urdf_tutorial` package is installed in `<ros directory>/share`.
+  * The remaining packages for these tutorials appear to have been included in `ros-melodic-desktop_full`.
 
 ## Attempt to install Gazebo independently
 
