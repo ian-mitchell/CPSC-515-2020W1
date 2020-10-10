@@ -110,8 +110,11 @@ Of course, the rise of machine learning over the past 5-10 years has lead many t
 * 2020-10-12: **No lecture** (Thanksgiving holiday).
   * No preparation or readings.
 
-* 2020-10-14: Dynamic programming / value functions for robotics.
-  * Preparation: Research paper TBA.
+* 2020-10-14: Dynamic programming / value functions and other planning algorithms for robotics.
+  * Preparation:
+    * [SHR chapter *Motion Planning*](https://link.springer.com/chapter/10.1007/978-3-319-32552-1_7) sections 7.1-7.3 presents a more traditionally computer science perspective on the motion planning problem and an overview of methods to solve it without value function approximation.
+    * "[The Open Motion Planning Library](https://dx.doi.org/10.1109/MRA.2012.2205651)" by Sucan, Moll & Kavraki, *IEEE Robotics & Automation Magazine*, 19(4):72-82 (December 2012) presents a popular library of planners.
+  * The [OMPL](https://ompl.kavrakilab.org/) is interfaced to ROS through [MoveIt](https://moveit.ros.org/).
 
 * 2020-10-19: PID for continuous control.
   * Preparation: AIfR Lesson 15.
