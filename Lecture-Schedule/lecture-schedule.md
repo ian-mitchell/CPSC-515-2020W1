@@ -102,7 +102,7 @@ Of course, the rise of machine learning over the past 5-10 years has lead many t
 
 * 2020-10-07: Dynamic Programming and Path Planning.
   * Preparation: AIfR Lesson 12 (if you did not already finish it) and 13-14 (the main problem in Lesson 13 is easier than the final example in Lesson 12).
-  * [Slides](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-10-07-dynamic-programming.pdf) on path planning as a dynamic programming problem, equations and algorithms for value functions, and policy extraction.  Slides include notations added during and after class.  
+  * [Slides](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-10-07-dynamic-programming.pdf) on path planning as a dynamic programming problem, equations and algorithms for value functions, and policy extraction.  We covered slides 1-5 today.  Slides include notations added during and after class.  
   * [Notes](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-10-07-notes.pdf) created during lecture examining how problems from Lesson 12 videos 17 and 19 are encoded as objective functions.
   * [Recorded lecture](https://ubc.zoom.us/rec/share/3F3dD0ElpaNSmroaa7jofv_prV0dnPYHw4S01NSgx2eXkcFASn4KiC72NH1DfOHq.-l_j5aFmkJqvAHKP) with passcode `fmJE*tw6`.
   * Optional reading: PR chapter 14 discusses value iteration in the context of Markov Decision Processes (MDPs), which are a discrete state, discrete time, stochastic model of system evolution.  "System evolution" is a more general name for what we have been calling a "motion model".
@@ -115,9 +115,35 @@ Of course, the rise of machine learning over the past 5-10 years has lead many t
     * [SHR chapter *Motion Planning*](https://link.springer.com/chapter/10.1007/978-3-319-32552-1_7) sections 7.1-7.3 presents a more traditionally computer science perspective on the motion planning problem and an overview of methods to solve it without value function approximation.
     * "[The Open Motion Planning Library](https://dx.doi.org/10.1109/MRA.2012.2205651)" by Sucan, Moll & Kavraki, *IEEE Robotics & Automation Magazine*, 19(4):72-82 (December 2012) presents a popular library of planners.
   * The [OMPL](https://ompl.kavrakilab.org/) is interfaced to ROS through [MoveIt](https://moveit.ros.org/).
+  * [Slides](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-10-07-dynamic-programming.pdf) on path planning as a dynamic programming problem, equations and algorithms for value functions, and policy extraction.  Same slide deck as 2020-10-07, but we covered slides 6-9.
+  * [Notes](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-10-14-notes.pdf) created during lecture recalling the value iteration equations for the deterministic case (Lesson 12 videos 17 & 19), extending the equations to the stochastic case (Lesson 13, video 5), and sketching out the complexity of value iteration.
+  * [Recorded lecture](https://ubc.zoom.us/rec/share/LaS8PhDoKeiNTJn92te4c53eqO16FVK6MI050HtJ9pYln_TsQDo9-lOllYCRYvZ5.j7vq7I4PlQE33YC4) with passcode `QMMOV^2a`.
 
 * 2020-10-19: PID for continuous control.
   * Preparation: AIfR Lesson 15.
 
 * 2020-10-21: More control.
   * Preparation: AIfR Lessons 16-18.
+
+## Simultaneous Localization and Mapping (SLAM)
+
+### General Notes
+
+### Lectures
+
+* 2020-10-26: FastSLAM
+  * Preparation: AIfR Lesson 19.
+
+* 2020-10-28: Implementing SLAM.
+  * Preparation: AIfR Lessons 20-21.
+
+
+## Advanced Topics
+
+### Lectures
+
+* Other dates
+
+* 2020-11-18: Potentially [DFP@UBC](https://dfp.ubc.ca/) [Seminar](https://dfp.ubc.ca/taxonomy/term/64)
+  * "[Emotional robots and magical objects: What part of our internal experience is readable by a touch-sensitive machine?](https://dfp.ubc.ca/news-and-events/events/emotional-robots-and-magical-objects-what-part-our-internal-experience-0)" by [Karon MacLean](https://www.cs.ubc.ca/labs/spin/) (UBC Computer Science)
+
