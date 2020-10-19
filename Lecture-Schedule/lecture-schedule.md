@@ -119,10 +119,12 @@ Of course, the rise of machine learning over the past 5-10 years has lead many t
   * [Notes](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-10-14-notes.pdf) created during lecture recalling the value iteration equations for the deterministic case (Lesson 12 videos 17 & 19), extending the equations to the stochastic case (Lesson 13, video 5), and sketching out the complexity of value iteration.
   * [Recorded lecture](https://ubc.zoom.us/rec/share/LaS8PhDoKeiNTJn92te4c53eqO16FVK6MI050HtJ9pYln_TsQDo9-lOllYCRYvZ5.j7vq7I4PlQE33YC4) with passcode `QMMOV^2a`.
 
-* 2020-10-19: PID for continuous control.
+* 2020-10-19: Path smoothing and planning / control through optimization.
   * Preparation: AIfR Lesson 15.
+  * [Notes](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-10-19-notes.pdf) created during lecture deriving (in a far from rigourous fashion) the update equations used in Lesson 19 video 6, and then considering what other aspects of our robot model / goals we might add into the resulting optimization problem.
+  * [Recorded lecture](https://ubc.zoom.us/rec/share/8pnl0tEVF8bt8kfxf-quwzwN3VgPNq9uT1H66sBbH7j-N7LqE0ocuK24UuQvBxw1.qRCyaPKpx4F-XLPd) with passcode `%ZU!N1Nd`.
 
-* 2020-10-21: More control.
+* 2020-10-21: PID for stabilization / regulation.
   * Preparation: AIfR Lessons 16-18.
 
 ## Simultaneous Localization and Mapping (SLAM)
