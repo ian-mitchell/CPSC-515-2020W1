@@ -124,8 +124,22 @@ Of course, the rise of machine learning over the past 5-10 years has lead many t
   * [Notes](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-10-19-notes.pdf) created during lecture deriving (in a far from rigourous fashion) the update equations used in Lesson 19 video 6, and then considering what other aspects of our robot model / goals we might add into the resulting optimization problem.
   * [Recorded lecture](https://ubc.zoom.us/rec/share/8pnl0tEVF8bt8kfxf-quwzwN3VgPNq9uT1H66sBbH7j-N7LqE0ocuK24UuQvBxw1.qRCyaPKpx4F-XLPd) with passcode `%ZU!N1Nd`.
 
-* 2020-10-21: PID for stabilization / regulation.
-  * Preparation: AIfR Lessons 16-18.
+* 2020-10-21: MPC and stability.
+  * Preparation: AIfR Lessons 16-18.  Lecture covers generalizations of smoothing and PID.
+  * MPC:
+    * [Matlab videos](https://www.youtube.com/c/matlab/) giving a brief primer on MPC: *Understanding Model Predictive Control* [part 1](https://youtu.be/8U0xiOkDcmw) and [part 2](https://youtu.be/cEWnixjNdzs).  There are many subsequent parts explaining various aspects of MPC in more detail, but these two provide the key concepts.
+    * The [diagram of MPC operation](https://en.wikipedia.org/wiki/Model_predictive_control#/media/File:MPC_scheme_basic.svg) that I showed comes from the [MPC entry](https://en.wikipedia.org/wiki/Model_predictive_control) at Wikipedia (which I find rather simplistic).
+    * The [block diagram of an MPC system](https://www.ist.uni-stuttgart.de/bilder/forschung/MPC_general.png) comes from the University of Stuttgart's Institute for Systems Theory and Automatic Control [Model Predictive Control page](https://www.ist.uni-stuttgart.de/research/topics/mpc/), which also gives a brief overview of several different branches of MPC research.
+  * Stability and mass-spring-damper system:
+    * I showed you a brief bit of the [How Centrifugal Governors Work](https://youtu.be/ASIl3HWTT4U) animation, and you can get pictures and diagrams at the [Govenor](https://en.wikipedia.org/wiki/Governor_(device)) Wikipedia page.
+    * The [mass-spring system diagram](https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/2952/2018/01/31200835/CNX_UPhysics_15_01_MassSpring.jpg) that I showed in class is lacking a damper / friction.  You can see a full diagram and corresponding equation at the [mass-spring-damper model](https://en.wikipedia.org/wiki/Mass-spring-damper_model) Wikipedia page.
+    * You can find more than enough information about the [eigendecomposition of a matrix](https://en.wikipedia.org/wiki/Eigendecomposition_of_a_matrix) on Wikipedia.
+    * The [stability theory](https://en.wikipedia.org/wiki/Stability_theory) Wikipedia entry has the diagram of how systems might behave near an equilibrium, although the axes are related to the trace and determinant of the matrix rather than its eigenvalues.  There are many tables showing the connection between eigenvalues and the stability and/or oscillation of the resulting trajectories, such as [here](http://cozybeehive.blogspot.com/2009/09/dynamic-stability-of-bicycle-design_18.html) or [here](https://www.researchgate.net/figure/This-table-presents-the-classification-and-connection-between-eigenvalues-stability-and_tbl1_334125895).  If you have taken an intro course on differential equations, there is probably a similar table / diagram in your textbook.
+  * [Notes](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-10-21-notes.pdf) created during lecture covering various definitions of stability and deriving the solution of the linear mass-spring-damper system in the input-free case.
+  * [Recorded lecture](https://ubc.zoom.us/rec/share/cQ9tbBtSmV4mezYLGryIH1c08gvsso8l3OmsiFI4WLqHqtjPjqpFNs2Axghiqb37.eu30a1O7Uzop9v3b) with passcode `k7=wJy%W`.
+
+* 2020-10-26: PID for control
+  * Recommended: Get started on AIfR Lesson 19.
 
 ## Simultaneous Localization and Mapping (SLAM)
 
@@ -133,10 +147,10 @@ Of course, the rise of machine learning over the past 5-10 years has lead many t
 
 ### Lectures
 
-* 2020-10-26: FastSLAM
+* 2020-10-28: FastSLAM
   * Preparation: AIfR Lesson 19.
 
-* 2020-10-28: Implementing SLAM.
+* 2020-11-02: Implementing SLAM.
   * Preparation: AIfR Lessons 20-21.
 
 
