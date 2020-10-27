@@ -140,6 +140,11 @@ Of course, the rise of machine learning over the past 5-10 years has lead many t
 
 * 2020-10-26: PID for control
   * Recommended: Get started on AIfR Lesson 19.
+  * [Notes](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-10-26-notes.pdf) created during lecture covering stability of a linear dynamic system $\dot x = A x$ based on the eigenvalues of matrix $A$, and similarly for the linear controlled system $\dot x = A x + B u$ with closed-loop feedback control $u = K x$ based on the eigenvalues of the matrix $A + BK$.
+  * Matlab script exploring the dependence of the eigenvalues of the mass-spring-damper system on the parameters of the spring, damper and PD controller.
+    * The [live editor version](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020_10_26_PD_stability.mlx) (basically the Matlab equivalent of Jupyter notebooks).  In Matlab you can fiddle with the parameter values and see the effect on system evolution.
+    * A [PDF version](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020_10_26_PD_stability.pdf).  Shows the output but you cannot change anything.
+  * [Recorded lecture](https://ubc.zoom.us/rec/share/7To1Bu7MNfb33G_o1vTqH-hidHIyu2r-z53XU81CH-cIpnyPVifnFew-psjQctq7.-5psAXJllTXlTWqw) with passcode `K*Z0=cRP`.
 
 ## Simultaneous Localization and Mapping (SLAM)
 
@@ -147,7 +152,7 @@ Of course, the rise of machine learning over the past 5-10 years has lead many t
 
 ### Lectures
 
-* 2020-10-28: FastSLAM
+* 2020-10-28: Lyapunov Stability.  FastSLAM
   * Preparation: AIfR Lesson 19.
 
 * 2020-11-02: Implementing SLAM.
