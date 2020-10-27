@@ -140,6 +140,8 @@ Of course, the rise of machine learning over the past 5-10 years has lead many t
 
 * 2020-10-26: PID for control
   * Recommended: Get started on AIfR Lesson 19.
+  * See the "Paper Discussion" section of the [course project page](https://sites.google.com/view/ubccpsc515winter2020/projects) for more details about the next element of your course project.
+    * In particular, by the end of this week you should have selected a paper (likely related to your project topic) which you will present as proponent.
   * [Notes](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-10-26-notes.pdf) created during lecture covering stability of a linear dynamic system $\dot x = A x$ based on the eigenvalues of matrix $A$, and similarly for the linear controlled system $\dot x = A x + B u$ with closed-loop feedback control $u = K x$ based on the eigenvalues of the matrix $A + BK$.
   * Matlab script exploring the dependence of the eigenvalues of the mass-spring-damper system on the parameters of the spring, damper and PD controller.
     * The [live editor version](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020_10_26_PD_stability.mlx) (basically the Matlab equivalent of Jupyter notebooks).  In Matlab you can fiddle with the parameter values and see the effect on system evolution.
