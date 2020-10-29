@@ -148,18 +148,23 @@ Of course, the rise of machine learning over the past 5-10 years has lead many t
     * A [PDF version](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020_10_26_PD_stability.pdf).  Shows the output but you cannot change anything.
   * [Recorded lecture](https://ubc.zoom.us/rec/share/7To1Bu7MNfb33G_o1vTqH-hidHIyu2r-z53XU81CH-cIpnyPVifnFew-psjQctq7.-5psAXJllTXlTWqw) with passcode `K*Z0=cRP`.
 
+* 2020-10-28: Lyapunov Stability.  AIfR "wrap-up".
+  * Preparation: AIfR Lesson 19.
+  * [Notes](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-10-28-notes.pdf) created during lecture showing properties of Lyapunov functions for proving stability.
+    * [Class-$\Kappa$ function definition](https://en.wikipedia.org/wiki/Class_kappa_function).
+    * Wikipedia has a very brief discussion of [Lyapunov functions](https://en.wikipedia.org/wiki/Lyapunov_function). 
+    * If you are interested in nonlinear control theory I recommend: [*Nonlinear Systems: Analysis, Stability & Control*](https://doi.org/10.1007/978-1-4757-3108-8) by Sastry or *Nonlinear Systems* by Khalil (UBC doesn't appear to have an electronic copy of the latter).
+  * [Recorded lecture](https://ubc.zoom.us/rec/share/6dJc_gNUUWiunwekBC4RZKhB4GzHj6TsbJYMWApNgXkXSLFnCS8Yw608qmsQcOlD.s58JD99hX5bfYzNa) with passcode `Z+.RQ0.&`.
+
+
 ## Simultaneous Localization and Mapping (SLAM)
 
 ### General Notes
 
 ### Lectures
 
-* 2020-10-28: Lyapunov Stability.  FastSLAM
-  * Preparation: AIfR Lesson 19.
-
-* 2020-11-02: Implementing SLAM.
-  * Preparation: AIfR Lessons 20-21.
-
+* 2020-11-02: GraphSLAM.  Implementing SLAM.
+  * Preparation: AIfR Lesson 20-21.
 
 ## Advanced Topics
 
@@ -167,6 +172,23 @@ Of course, the rise of machine learning over the past 5-10 years has lead many t
 
 * Other dates
 
+* 2020-11-04: Reachability.
+  * Preparation: 
+
+* 2020-11-09:
+
+* 2020-11-11: **No lecture** (Remembrance Day).
+  * No preparation or readings.
+
+* 2020-11-16:
+
 * 2020-11-18: Potentially [DFP@UBC](https://dfp.ubc.ca/) [Seminar](https://dfp.ubc.ca/taxonomy/term/64)
   * "[Emotional robots and magical objects: What part of our internal experience is readable by a touch-sensitive machine?](https://dfp.ubc.ca/news-and-events/events/emotional-robots-and-magical-objects-what-part-our-internal-experience-0)" by [Karon MacLean](https://www.cs.ubc.ca/labs/spin/) (UBC Computer Science)
 
+* 2020-11-23:
+
+* 2020-11-25:
+
+* 2020-11-30:
+
+* 2020-12-02:
