@@ -161,19 +161,29 @@ Of course, the rise of machine learning over the past 5-10 years has lead many t
 
 ### General Notes
 
+There are many approaches to SLAM; AIfR looks at just one (GraphSLAM) and an extension which reduces the amount of information tracked over time (FastSLAM).
+  * [SHR chapter *Simultaneous Localization and Mapping*](https://link.springer.com/chapter/10.1007/978-3-319-32552-1_46) provides a broader overview of SLAM approaches, including more modern approaches using RGBD cameras.
+  * PR section 3 covers mapping and a few specific SLAM algorithms in more detail.
+    * PR chapter 9 covers the occupancy grid, which is the most common approach to mapping continuous spaces.
+    * PR chapter 10 discusses how Extended Kalman Filters can be used for mapping.
+    * PR chapters 11 and 13 cover the GraphSLAM and FastSLAM algorithms introduced in AIfR Lessons 19 and 20.
+    * PR chapter 12 covers a dual formation of SLAM called the Sparse Extended Information Filter.
+
 ### Lectures
 
 * 2020-11-02: GraphSLAM.  Implementing SLAM.
   * Preparation: AIfR Lesson 20-21.
+  * [Notes](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-11-02-notes.pdf) created during lecture.  We wrote down an (overdetermined) linear system of equations describing the constraints imposed by our movements and measurements.  Overdetermined systems typically do not admit a traditional solution, but we can seek a best fit through [linear least squares](https://en.wikipedia.org/wiki/Linear_least_squares).  The GraphSLAM linear system $\Omega \mu = \xi$ turns out to be the least squares solution of this overdetermined system written in the form of the [normal equation](https://mathworld.wolfram.com/NormalEquation.html).
+  * The GraphSLAM linear system can also be derived starting from the probabilistic framework, as explained in "[The GraphSLAM Algorithm with Applications to Large-Scale Mapping of Urban Structures](https://doi.org/10.1177%2F0278364906065387)" by Thrun & Montemerlo, *Int. J. Robotics Research*, 25(5-6): 403-429 (2006).
+  * [Recorded lecture](https://ubc.zoom.us/rec/share/AwuKEiuuFE3y42SgQbdD97YdsXknGZbMvjji5Klpi4cat7qRKbCWm81L-bjB1aA7.nf3AcmdiFlZToFiu) with passcode `1Syf^v2F`.
+
 
 ## Advanced Topics
 
 ### Lectures
 
-* Other dates
-
 * 2020-11-04: Reachability.
-  * Preparation: 
+  * Preparation: [Computational Techniques for the Verification of Hybrid Systems](http://dx.doi.org/10.1109/JPROC.2003.814621) by Tomlin, Mitchell, Bayen & Oishi, *Proc IEEE* 91(7): 986-1001 (2003).
 
 * 2020-11-09:
 
