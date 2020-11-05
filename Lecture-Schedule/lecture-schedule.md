@@ -198,7 +198,7 @@ There are many approaches to SLAM; AIfR looks at just one (GraphSLAM) and an ext
     * "[Decomposition of Reachable Sets and Tubes for a Class of Nonlinear Systems](https://doi.org/10.1109/TAC.2018.2797194)," Chen et al, *IEEE Trans. Automatic Control*, 63(11): 3675-3688 (2018) shows how some high dimensional systems can be analyzed without requiring a high dimensional grid.
     * Find more reachability papers using Hamilton-Jacobi equations at Google scholar pages for [Mo Chen](https://scholar.google.ca/citations?hl=en&user=19UAgLUAAAAJ) or [me](https://scholar.google.ca/citations?user=bTG82acAAAAJ&hl=en).
     * Find more reachability papers at the Hybrid Systems Computation and Control (HSCC), IEEE Conference on Decision and Control (CDC), American Conference on Control (ACC), Computer Aided Verification (CAV), or Applied Verification of Continuous and Hybrid Systems (ARCH) conferences.  Journal venues include IEEE Trans. Automatic Control, Automatica, and Nonlinear Analysis: Hybrid Systems.
-  * [Recorded lecture]() with passcode ``. (Zoom hasn't given me the link yet.)
+  * [Recorded lecture](https://ubc.zoom.us/rec/share/bpgrpmuJf-sPPtt0MMD0AmE9S4LVBa5vQ2OZGnas6D5FVP0F5mSg0h9qiqYDaqpt.yMh0QgEynOPPX2je) with passcode `1M=?uRX#`.
 
 * 2020-11-09:
 
@@ -207,8 +207,7 @@ There are many approaches to SLAM; AIfR looks at just one (GraphSLAM) and an ext
 
 * 2020-11-16:
 
-* 2020-11-18: Potentially [DFP@UBC](https://dfp.ubc.ca/) [Seminar](https://dfp.ubc.ca/taxonomy/term/64)
-  * "[Emotional robots and magical objects: What part of our internal experience is readable by a touch-sensitive machine?](https://dfp.ubc.ca/news-and-events/events/emotional-robots-and-magical-objects-what-part-our-internal-experience-0)" by [Karon MacLean](https://www.cs.ubc.ca/labs/spin/) (UBC Computer Science)
+* 2020-11-18: 
 
 * 2020-11-23:
 
