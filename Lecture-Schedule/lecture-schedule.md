@@ -184,7 +184,21 @@ There are many approaches to SLAM; AIfR looks at just one (GraphSLAM) and an ext
 ### Lectures
 
 * 2020-11-04: Reachability.
-  * Preparation: [Computational Techniques for the Verification of Hybrid Systems](http://dx.doi.org/10.1109/JPROC.2003.814621) by Tomlin, Mitchell, Bayen & Oishi, *Proc IEEE* 91(7): 986-1001 (2003).
+  * Preparation: "[Computational Techniques for the Verification of Hybrid Systems](http://dx.doi.org/10.1109/JPROC.2003.814621)," Tomlin, Mitchell, Bayen & Oishi, *Proceedings IEEE* 91(7): 986-1001 (2003).
+  * [Reachability slides](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-11-04-reachability.pdf) from lecture.
+  * Software:
+    * [Toolbox of Level Set Methods](https://www.cs.ubc.ca/~mitchell/ToolboxLS) is my Matlab package.  The Bitbucket link on that page is broken, but the zip file still works.
+    * [SFU-MARS/optimized DP](https://github.com/SFU-MARS/optimized_dp) package, a much more recent implementation from Mo Chen's MARS group at SFU.
+  * Papers:
+    * "[A Time-Dependent Hamilton-Jacobi Formulation of Reachable Sets for Continuous Dynamic Games](http://dx.doi.org/10.1109/TAC.2005.851439)," Mitchell, Bayen & Tomlin, *IEEE Trans. Automatic Control* 50(7):947-957 (2005) is my "thesis paper".  As mentioned, the proof of the key theorem has a bug.  [My thesis](https://www.cs.ubc.ca/~mitchell/Papers/thesisMitchell.pdf) has a weaker but correct version of the theorem.
+    * "[Aircraft Autolander Safety Analysis Through Optimal Control-Based Reach Set Computation](http://dx.doi.org/10.2514/1.21562)," Bayen, Mitchell, Oishi & Tomlin, *AIAA J. Guidance, Control & Dynamics* 30(1): 68-77 (2007) covers the aircraft landing analysis.
+    * "[Invariance-Preserving Abstractions: Application to User-Interface Design](http://dx.doi.org/10.1109/TCST.2007.903370)," Oishi, Mitchell, Bayen & Tomlin, *IEEE Trans. Control Systems Technology* 16(2):229-244 (2008) covers the take-off go-around (TOGA) analysis.
+    * "[Comparing Forward & Backward Reachability as Tools for Safety Analysis](http://dx.doi.org/10.1007/978-3-540-71493-4_34)," Mitchell, *Hybrid Systems Computation and Control* (HSCC), LNCS 4416: 428-443 (2007) has a pretty self-explanatory title.
+    * "[A Robust Controlled Backward Reach Tube with (Almost) Analytic Solution for Two Dubins Cars](https://doi.org/10.29007/mx3f)," Mitchell, *Applied Verification of Continuous and Hybrid Systems* (ARCH), EPiC 74: 242-258 (2020) explains how the "Game of Two Identical Vehicles" can be used as a benchmark for nonlinear reachability.
+    * "[Decomposition of Reachable Sets and Tubes for a Class of Nonlinear Systems](https://doi.org/10.1109/TAC.2018.2797194)," Chen et al, *IEEE Trans. Automatic Control*, 63(11): 3675-3688 (2018) shows how some high dimensional systems can be analyzed without requiring a high dimensional grid.
+    * Find more reachability papers using Hamilton-Jacobi equations at Google scholar pages for [Mo Chen](https://scholar.google.ca/citations?hl=en&user=19UAgLUAAAAJ) or [me](https://scholar.google.ca/citations?user=bTG82acAAAAJ&hl=en).
+    * Find more reachability papers at the Hybrid Systems Computation and Control (HSCC), IEEE Conference on Decision and Control (CDC), American Conference on Control (ACC), Computer Aided Verification (CAV), or Applied Verification of Continuous and Hybrid Systems (ARCH) conferences.  Journal venues include IEEE Trans. Automatic Control, Automatica, and Nonlinear Analysis: Hybrid Systems.
+  * [Recorded lecture]() with passcode ``. (Zoom hasn't given me the link yet.)
 
 * 2020-11-09:
 
