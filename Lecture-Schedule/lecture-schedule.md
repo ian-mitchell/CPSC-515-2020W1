@@ -203,13 +203,13 @@ There are many approaches to SLAM; AIfR looks at just one (GraphSLAM) and an ext
 * 2020-11-09: Two example paper presentations & discussions.  Please read **one** of the two, but watch **both** sample paper presentations **before** class.  We will discuss the final paper if we have time, but there is no prerecorded presentation for it.
   * Option 1 (Model Predictive Control):
     * "[Robust Sampling Based Model Predictive Control with Sparse Objective Information](http://roboticsproceedings.org/rss14/p42.pdf)," Williams et al, *Robotics: Science and Systems* (2018).
-    * [Sample paper presentation](https://ubc.zoom.us/rec/share/ahABGfMYSyVx0IdDhnjxQz4zz3EjponG6VOMwRDYpkWW4UyqfOt2Y35qDtl3WXTf.pDVY5pdLegkGORnA?startTime=1604809083000).
+    * [Sample paper presentation](https://ubc.zoom.us/rec/share/44YJqAHDUvWDTQ0ZP2Z-LH01zhrxXd6UYZpBhabcUcqLd6wxI3BKzHAbv2IAvxy1.QoNjJX1N2uoqmcwV) with passcode `*OU#M2AG`.
     * Prior paper (optional reading): "[Aggressive driving with model predictive path integral control](https://doi.org/10.1109/ICRA.2016.7487277)," Williams et al, *IEEE Int. Conf. Robotics and Automation* (2016).
     * Description of the AutoRally platform (optional reading): "[AutoRally: An Open Platform for Aggressive Autonomous Driving](https://doi.org/10.1109/MCS.2018.2876958)," Goldfain et al, *IEEE Control Systems Magazine* 39(1): 26-55 (2019).
     * [Aggressive Driving with MPPI Overview](https://youtu.be/1AR2-OHCxsQ): An early but quite detailed video from the group.
   * Option 2 (Safe Learning):
     * "[Reachability-based safe learning with Gaussian processes](https://doi.org/10.1109/CDC.2014.7039601)," Akametalu et al, *IEEE Conference on Decision & Control* (2014).
-    * [Sample paper presentation](https://ubc.zoom.us/rec/share/vF-IydmkHw0BjxiKWHk1Smf109xn4JDoIbmyM2iTzRtnTyJ8l8qU40b2oAtYXNCj.A103z98LZ3G50W-a?startTime=1604870635000).
+    * [Sample paper presentation](https://ubc.zoom.us/rec/share/4jPX9xEkaV0A8aMwt3oCEjV9XK1gKqnRhMUHnOsELd6lrH3yzhlNj6Y3zGT61lEC.4lP_SnwyFV6Rq9bS) with passcode `?b^31#U$`.
     * Journal version (optional reading): "[A General Safety Framework for Learning-Based Control in Uncertain Robotic Systems](https://doi.org/10.1109/TAC.2018.2876389)," Fisac et al, *IEEE Trans. Automatic Control* 64(7): 2737-2752 (2019).
     * Some videos: [Safe Learning](https://vimeo.com/114490423), a brief video showing the CDC controller in action, or [Jaime Fisac's dissertation thesis talk](https://youtu.be/6SOU02uFzJw), a much longer talk covering a lot of ground. 
   * Final paper (optional reading): "[Intelligent Wheelchair Control Strategies for Older Adults with Cognitive Impairment: User Preferences, Attitudes and Needs](http://dx.doi.org/10.1007/s10514-016-9568-y)," Viswanathan et al, *Autonomous Robotics* (special issue on Assistive and Rehabilitation Robotics) 41(3): 539-554 (2017).
