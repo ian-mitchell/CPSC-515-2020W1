@@ -200,7 +200,17 @@ There are many approaches to SLAM; AIfR looks at just one (GraphSLAM) and an ext
     * Find more reachability papers at the Hybrid Systems Computation and Control (HSCC), IEEE Conference on Decision and Control (CDC), American Conference on Control (ACC), Computer Aided Verification (CAV), or Applied Verification of Continuous and Hybrid Systems (ARCH) conferences.  Journal venues include IEEE Trans. Automatic Control, Automatica, and Nonlinear Analysis: Hybrid Systems.
   * [Recorded lecture](https://ubc.zoom.us/rec/share/bpgrpmuJf-sPPtt0MMD0AmE9S4LVBa5vQ2OZGnas6D5FVP0F5mSg0h9qiqYDaqpt.yMh0QgEynOPPX2je) with passcode `1M=?uRX#`.
 
-* 2020-11-09:
+* 2020-11-09: Two example paper presentations & discussions.  Please read **one** of the two, but watch **both** sample paper presentations **before** class.  We will discuss the final paper if we have time, but there is no prerecorded presentation for it.
+  * Option 1 (Model Predictive Control):
+    * "[Robust Sampling Based Model Predictive Control with Sparse Objective Information](http://roboticsproceedings.org/rss14/p42.pdf)," Williams et al, *Robotics: Science and Systems* (2018).
+    * Sample paper presentation (coming shortly).
+    * Prior paper (optional reading): "[Aggressive driving with model predictive path integral control](https://doi.org/10.1109/ICRA.2016.7487277)," Williams et al, *IEEE Int. Conf. Robotics and Automation* (2016).
+    * Description of the AutoRally platform (optional reading): "[AutoRally: An Open Platform for Aggressive Autonomous Driving](https://doi.org/10.1109/MCS.2018.2876958)," Goldfain et al, *IEEE Control Systems Magazine* 39(1): 26-55 (2019).
+  * Option 2 (Safe Learning):
+    * "[Reachability-based safe learning with Gaussian processes](https://doi.org/10.1109/CDC.2014.7039601)," Akametalu et al, *IEEE Conference on Decision & Control* (2014).
+    * Sample paper presentation (coming shortly).
+    * Journal version (optional reading): "[A General Safety Framework for Learning-Based Control in Uncertain Robotic Systems](https://doi.org/10.1109/TAC.2018.2876389)," Fisac et al, *IEEE Trans. Automatic Control* 64(7): 2737-2752 (2019).
+  * Final paper (optional reading): "[Intelligent Wheelchair Control Strategies for Older Adults with Cognitive Impairment: User Preferences, Attitudes and Needs](http://dx.doi.org/10.1007/s10514-016-9568-y)," Viswanathan et al, *Autonomous Robotics* (special issue on Assistive and Rehabilitation Robotics) 41(3): 539-554 (2017).
 
 * 2020-11-11: **No lecture** (Remembrance Day).
   * No preparation or readings.
