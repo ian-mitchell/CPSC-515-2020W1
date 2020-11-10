@@ -213,6 +213,8 @@ There are many approaches to SLAM; AIfR looks at just one (GraphSLAM) and an ext
     * Journal version (optional reading): "[A General Safety Framework for Learning-Based Control in Uncertain Robotic Systems](https://doi.org/10.1109/TAC.2018.2876389)," Fisac et al, *IEEE Trans. Automatic Control* 64(7): 2737-2752 (2019).
     * Some videos: [Safe Learning](https://vimeo.com/114490423), a brief video showing the CDC controller in action, or [Jaime Fisac's dissertation thesis talk](https://youtu.be/6SOU02uFzJw), a much longer talk covering a lot of ground. 
   * Final paper (optional reading): "[Intelligent Wheelchair Control Strategies for Older Adults with Cognitive Impairment: User Preferences, Attitudes and Needs](http://dx.doi.org/10.1007/s10514-016-9568-y)," Viswanathan et al, *Autonomous Robotics* (special issue on Assistive and Rehabilitation Robotics) 41(3): 539-554 (2017).
+    * [Wizard of Oz slides](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-11-09-woz-study.pdf) from lecture.
+  * [Recorded lecture](https://ubc.zoom.us/rec/share/LKU6a6PdDjIs96NcyuzXajJH68ITEtSQjl0W4QcDHcbDbw7QZW4ds_ui1fbCBhRE.TIaglDEnuDSmBkmD) with passcode `wfX4?zwn`.
 
 * 2020-11-11: **No lecture** (Remembrance Day).
   * No preparation or readings.
