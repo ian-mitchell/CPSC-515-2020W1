@@ -232,7 +232,7 @@ There are many approaches to SLAM; AIfR looks at just one (GraphSLAM) and an ext
     * Optional reading: "[A PK/PD Model and Safety Constraints for Anesthesia Delivery.](http://cps-vo.org/file/12111/download/34305)," Gan, Dumont & Mitchell, *Applied Verification for Continuous and Hybrid Systems* (2010).
     * Optional reading: "[Lagrangian methods for approximating the viability kernel in high-dimensional systems](http://dx.doi.org/10.1016/j.automatica.2013.03.020)," Maidens et al, *Automatica* 49(7): 2017-2029 (2013).
   * "A Robust Controlled Backward Reach Tube with (Almost) Analytic Solution for Two Dubins Cars" presentation from ARCH workshop (July 2020).
-    * [Slides](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-11-16-fls-viability-slides.pdf) from lecture.
+    * [Slides](https://www.cs.ubc.ca/~mitchell/Class/CPSC515-2020W1/2020-11-16-benchmark-rci-game.pdf) from lecture.
     * Optional reading: "[A Robust Controlled Backward Reach Tube with (Almost) Analytic Solution for Two Dubins Cars](https://doi.org/10.29007/mx3f)," Mitchell, *Applied Verification of Continuous and Hybrid Systems*, EPiC Series in Computing, 74:242-258 (2020).
 
 
